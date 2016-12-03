@@ -1,0 +1,80 @@
+h3, h4 {
+    font-weight: bold;
+}
+.profile-link {
+    line-height: 1.3;
+    margin: 20px 0 10px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.content-wrapper {
+    padding: 15px;
+}
+
+.sub-header {
+    font-size: 16px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.artist-photo {
+    height: 150px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+.email-phone.col-md-9{
+    padding: 0;
+}
+
+.invitation-text {
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.toggle.btn {
+    float: left;
+}
+
+.schedule .row {
+    margin: 0;
+}
+
+.schedule-day {
+    margin-bottom: 10px;
+}
+
+.button-wrapper {
+    margin: 40px 0;
+}
+
+.address .dropdown-toggle.btn {
+    width: 100%;
+    text-align: left;
+}
+
+.address .dropdown.btn-group, .address .dropdown-menu {
+    width: 100%;
+}
+.address .dropdown-toggle.btn .caret {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+
+@media (max-width: 992px) {
+    .email-phone.col-md-3 {
+        padding: 0 0 15px;
+    }
+}
